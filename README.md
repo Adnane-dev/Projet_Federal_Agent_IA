@@ -2,6 +2,8 @@
 
 **MPSDD2 · Année universitaire 2026-2027 · Encadrante : Dr. Hela Haj Mohamed**
 
+**Présenté par : Khadija Yakouba Dogon Yaro** ([@KADY2004](https://github.com/KADY2004))
+
 > Concevoir, outiller, évaluer et déployer un agent IA, à travers un cas d'étude complet : un agent qui planifie un voyage sous contrainte de budget.
 
 <div align="center">
@@ -190,4 +192,4 @@ Les apports du projet fédérateur sont les suivants : le cadrage académique, l
 
 La licence MIT du fichier `LICENSE` s'applique aux contributions originales de ce dépôt. Les éléments repris du Cahier de vacances restent la propriété de leurs auteurs.
 
-Adaptation : Adnane Mahamadou Saadou. Encadrement : Dr. Hela Haj Mohamed.
+Présentation : Khadija Yakouba Dogon Yaro ([@KADY2004](https://github.com/KADY2004)). Encadrement : Dr. Hela Haj Mohamed.
