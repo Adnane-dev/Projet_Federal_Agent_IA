@@ -1,0 +1,17 @@
+[project]
+name = "projet-federal-agent-ia"
+version = "1.0.0"
+description = "Projet fédérateur MPSDD2 2026-2027 : le monde des Agents IA (encadrante : Dr. Hela Haj Mohamed)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=6.29",
+    "pandas>=2.2",
+    "pypdf>=5.0",
+    "sentence-transformers>=3.0",
+    "streamlit>=1.50",
+]
+
+[project.optional-dependencies]
+# Module 10 (avancé) : l'agent piloté par un LLM. Installation : uv sync --extra llm
+llm = ["anthropic>=1.8"]

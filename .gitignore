@@ -1,0 +1,19 @@
+# Environnements Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+uv.lock
+
+# Checkpoints et artefacts d'entraînement
+*.pth
+*.pt
+*.pkl
+
+# Secrets : une clé d'API ne doit JAMAIS entrer dans le dépôt
+.env
+.streamlit/secrets.toml
+
+# Systèmes d'exploitation
+.DS_Store
+Thumbs.db

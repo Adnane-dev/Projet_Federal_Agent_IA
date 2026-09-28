@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="fleche" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4b5563"/>
+    </marker>
+  </defs>
+
+  <rect x="1" y="1" width="898" height="518" rx="14" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+  <text x="450" y="34" text-anchor="middle" font-size="21" font-weight="600" fill="#111827">La boucle d'un agent</text>
+
+  <!-- Le but, au centre -->
+  <ellipse cx="450" cy="245" rx="140" ry="52" fill="#fff4d6" stroke="#d99a00" stroke-width="2"/>
+  <text x="450" y="236" text-anchor="middle" font-size="18" font-weight="700" fill="#7a5200">OBJECTIF</text>
+  <text x="450" y="257" text-anchor="middle" font-size="13" fill="#374151">la demande du voyageur :</text>
+  <text x="450" y="275" text-anchor="middle" font-size="13" fill="#374151">destination, dates, budget, envies</text>
+
+  <!-- 1. Percevoir (haut) -->
+  <rect x="325" y="50" width="250" height="80" rx="10" fill="#eef4ff" stroke="#3b6fd8" stroke-width="2"/>
+  <text x="450" y="78" text-anchor="middle" font-size="16" font-weight="700" fill="#1e3a8a">1 · PERCEVOIR</text>
+  <text x="450" y="99" text-anchor="middle" font-size="13" fill="#374151">interroger ses outils :</text>
+  <text x="450" y="117" text-anchor="middle" font-size="13" fill="#374151">vols, hôtels, activités</text>
+
+  <!-- 2. Décider (droite) -->
+  <rect x="630" y="205" width="250" height="80" rx="10" fill="#eef4ff" stroke="#3b6fd8" stroke-width="2"/>
+  <text x="755" y="233" text-anchor="middle" font-size="16" font-weight="700" fill="#1e3a8a">2 · DÉCIDER</text>
+  <text x="755" y="254" text-anchor="middle" font-size="13" fill="#374151">chiffrer le voyage,</text>
+  <text x="755" y="272" text-anchor="middle" font-size="13" fill="#374151">le comparer au budget</text>
+
+  <!-- 3. Agir (bas) -->
+  <rect x="325" y="360" width="250" height="80" rx="10" fill="#eef4ff" stroke="#3b6fd8" stroke-width="2"/>
+  <text x="450" y="388" text-anchor="middle" font-size="16" font-weight="700" fill="#1e3a8a">3 · AGIR</text>
+  <text x="450" y="409" text-anchor="middle" font-size="13" fill="#374151">sacrifier, changer d'hôtel,</text>
+  <text x="450" y="427" text-anchor="middle" font-size="13" fill="#374151">proposer, réserver</text>
+
+  <!-- 4. Observer (gauche) -->
+  <rect x="20" y="205" width="250" height="80" rx="10" fill="#eef4ff" stroke="#3b6fd8" stroke-width="2"/>
+  <text x="145" y="233" text-anchor="middle" font-size="16" font-weight="700" fill="#1e3a8a">4 · OBSERVER</text>
+  <text x="145" y="254" text-anchor="middle" font-size="13" fill="#374151">le nouveau plan tient-il ?</text>
+  <text x="145" y="272" text-anchor="middle" font-size="13" fill="#374151">sinon, on recommence</text>
+
+  <!-- Les flèches, dans le sens des aiguilles d'une montre -->
+  <g fill="none" stroke="#4b5563" stroke-width="2.2" marker-end="url(#fleche)">
+    <path d="M577,90 Q755,90 755,201"/>
+    <path d="M755,289 Q755,400 579,400"/>
+    <path d="M323,400 Q145,400 145,289"/>
+    <path d="M145,201 Q145,90 321,90"/>
+  </g>
+
+  <!-- Les deux notes -->
+  <text x="450" y="476" text-anchor="middle" font-size="13.5" fill="#374151"><tspan font-weight="700">Journal</tspan> : chaque décision est notée, puis expliquée au voyageur</text>
+  <text x="450" y="500" text-anchor="middle" font-size="13.5" fill="#374151"><tspan font-weight="700">Garde-fous</tspan> : un nombre de tours limité · une confirmation humaine avant toute écriture</text>
+</svg>
